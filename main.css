@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o Cabeçalho */
+
+header,
+header h1 {
+    padding: 18px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: normal;
+}
+
+section h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Estilizando o site */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0;
+}
+
+section {
+    padding: 24px;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.game-photo {
+    height: 400px;
+    margin-right: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.social-links img {
+    height: 16px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social {
+    display: block;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
